@@ -1,0 +1,47 @@
+.home {
+    background-color: #fff;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.hometop {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.hometop select {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-color: grey;
+}
+
+.hometop div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.hometop div svg {
+    width: 20px;
+    height: 20px;
+    color: grey;
+    background-color: #fff;
+}
+.hometop div input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.mymap {
+    width: 100%;
+    height: 50vh;
+}
+.mymap p {
+    font-size: 100px;
+}
